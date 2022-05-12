@@ -1,11 +1,11 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 
 <body>
     <script>
         /* Storing user's device details in a variable*/
         let details = navigator.userAgent;
-        alert(details)
+        // alert(details)
 
         /* Creating a regular expression 
         containing some mobile devices keywords 
@@ -17,9 +17,9 @@
         let isMobileDevice = regexp.test(details);
 
         if (isMobileDevice) {
-            document.write("You are using a Mobile Device please navigate ZoomWebminar <a href='http://google.com'>this</a>");
+            window.location.replace('https://google.com')
         } else {
-            document.write("You are using Desktop please navigate to this link  <a href='https://goto/emcoin'>this</a>");
+            window.location.replace('https://youtube.com')
         }
     </script>
 </body>
