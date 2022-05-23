@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'CFOXOMZOOM'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_55708730C01749779D8818CB5C3420BD }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_500C19142B594EA2B76D885B83CAC3E3 }}
           package: .
